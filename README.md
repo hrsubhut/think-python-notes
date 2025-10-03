@@ -148,6 +148,12 @@ print("Hello')  # SyntaxError
 - Opening and closing quotes must match
 - Python error messages help identify problems
 
+<!-- Error Examples Illustration -->
+
+![Common Python Error Examples](image.jpg)
+
+> Figure: Visual illustration of common beginner syntax errors in Python.
+
 ## 📝 Exercises with Solutions
 
 ### Exercise 1.1: Interactive Python
@@ -352,6 +358,19 @@ result = a + ((b * c) / d)
 - Modify examples to see what happens
 - Practice makes perfect
 
+## 🔗 Work in Google Colab
+
+For an interactive version of these Chapter 1 examples, open the Colab notebook:
+
+- Colab notebook: [chapter_1.ipynb](chapter_1.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hrsubhut/think-python-notes/blob/chapter-1-the-way-of-the-program/chapter_1.ipynb)
+
+How to open in Google Colab:
+- Click the notebook link above to view it in the repository
+- Click the "Open in Colab" badge/link above, or
+- Alternatively, open https://colab.research.google.com/, choose the GitHub tab, and paste this repository URL to locate `chapter_1.ipynb`
+
 ## 🔑 Key Vocabulary
 
 - **Program**: Sequence of instructions for a computer
@@ -383,6 +402,54 @@ Chapter 1 lays the foundation for programming in Python. Key takeaways:
 6. Good practices make programming easier
 
 Next chapter covers variables, expressions, and statements in more depth!
+
+---
+
+## Chapter 1 Flashcards
+
+**Q:** What is a program?
+
+**A:** A sequence of instructions specifying computation steps.
+
+**Q:** What does the interpreter do?
+
+**A:** Reads and executes code line by line.
+
+**Q:** What is a compiler?
+
+**A:** Translates the entire program into another language before execution.
+
+**Q:** What are the three basic data types covered here?
+
+**A:** int, float, and str.
+
+**Q:** What does the prompt `>>>` indicate?
+
+**A:** The Python interpreter is ready for input.
+
+**Q:** What is a syntax error?
+
+**A:** Code that violates language rules and fails to parse.
+
+**Q:** What is a runtime error?
+
+**A:** An error that occurs during program execution (e.g., dividing by zero).
+
+**Q:** What is a semantic error?
+
+**A:** The program runs but produces incorrect results due to logic mistakes.
+
+**Q:** What operator performs exponentiation in Python?
+
+**A:** `**` (double asterisk).
+
+**Q:** What is the difference between `'42'` and `42`?
+
+**A:** `'42'` is a string, while `42` is an integer.
+
+**Q:** What is modulus `%` used for?
+
+**A:** It returns the remainder of integer division.
 
 ---
 
